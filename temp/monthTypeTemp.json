@@ -1,0 +1,11 @@
+[
+    { "id": "1", "name": "Days" },
+    { "id": "2", "name": "Weeks" },
+    { "id": "3", "name": "Bi-weeks" },
+    { "id": "4", "name": "Monthly" },
+    { "id": "5", "name": "Bi-months" },
+    { "id": "6", "name": "Quarters" },
+    { "id": "7", "name": "Six-months" },
+    { "id": "8", "name": "Financial Years" },
+    { "id": "9", "name": "Years" }
+]

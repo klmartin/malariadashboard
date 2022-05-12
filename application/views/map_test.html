@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="http://dhis2-cdn.org/v215/ext/resources/css/ext-plugin-gray.css"
+    />
+    <script src="http://dhis2-cdn.org/v215/ext/ext-all.js"></script>
+    <script src="https://maps.google.com/maps/api/js?sensor=false"></script>
+    <script src="http://dhis2-cdn.org/v215/openlayers/OpenLayers.js"></script>
+    <script src="https://mohzn.go.tz/dhis-web-maps/map.js"></script>
+
+    <script>
+      var base = "https://mohzn.go.tz/";
+
+      // Login - if OK, call the setLinks function
+
+      // Ext.onReady(function () {
+      //   Ext.Ajax.request({
+      //     url: base + "dhis-web-commons-security/login.action",
+      //     method: "POST",
+      //     params: { j_username: "portal", j_password: "Portal123" },
+      //     success: setLinks,
+      //   });
+      // });
+
+      function setLinks() {
+        DHIS.getMap({ url: base, el: "map1", id: "ytkZY3ChM6J" });
+
+        DHIS.getMap({
+          url: base,
+          el: "map2",
+          mapViews: [
+            {
+              columns: [{ dimension: "in", items: [{ id: "Uvn6LCg7dVU" }] }], // data
+              rows: [
+                {
+                  dimension: "ou",
+                  items: [{ id: "LEVEL-3" }, { id: "ImspTQPwCqd" }],
+                },
+              ], // organisation units,
+              filters: [{ dimension: "pe", items: [{ id: "LAST_3_MONTHS" }] }], // period
+              // All following options are optional
+              classes: 7,
+              colorLow: "02079c",
+              colorHigh: "e5ecff",
+              opacity: 0.9,
+              legendSet: { id: "fqs276KXCXi" },
+            },
+          ],
+        });
+      }
+    </script>
+  </head>
+
+  <body>
+    <div id="map1"></div>
+    <div id="map2"></div>
+  </body>
+</html>

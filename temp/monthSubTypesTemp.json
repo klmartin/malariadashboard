@@ -1,0 +1,48 @@
+[
+    { "id": "100", "name": "Today", "parent": "1" },
+    { "id": "200", "name": "Yesterday", "parent": "1" },
+    { "id": "300", "name": "Last 3 days", "parent": "1" },
+    { "id": "400", "name": "Last 7 days", "parent": "1" },
+    { "id": "500", "name": "Last 14 days", "parent": "1" },
+
+    { "id": "600", "name": "This week", "parent": "2" },
+    { "id": "700", "name": "Last week", "parent": "2" },
+    { "id": "800", "name": "Last 4 weeks", "parent": "2" },
+    { "id": "900", "name": "Last 12 weeks", "parent": "2" },
+    { "id": "1000", "name": "Last 52 weeks", "parent": "2" },
+    { "id": "1100", "name": "Weeks this year", "parent": "2" },
+
+    { "id": "1200", "name": "This biweek", "parent": "3" },
+    { "id": "1300", "name": "Last biweek", "parent": "3" },
+    { "id": "1400", "name": "Last 4 biweeks", "parent": "3" },
+
+    { "id": "1500", "name": "This month", "parent": "4" },
+    { "id": "1600", "name": "Last month", "parent": "4" },
+    { "id": "1700", "name": "Last 3 months", "parent": "4" },
+    { "id": "1800", "name": "Last 6 months", "parent": "4" },
+    { "id": "1900", "name": "Last 12 months", "parent": "4" },
+
+    { "id": "2000", "name": "This bimonth", "parent": "5" },
+    { "id": "2100", "name": "Last bimonth", "displayName": "Last bi-month", "parent": "5" },
+    { "id": "2200", "name": "Last 6 bimonths", "parent": "5" },
+    { "id": "2300", "name": "Bimonths this year", "parent": "5" },
+
+    { "id": "2400", "name": "This quarter", "parent": "6" },
+    { "id": "2500", "name": "Last quarter", "parent": "6" },
+    { "id": "2600", "name": "Last 4 quarters", "parent": "6" },
+    { "id": "2700", "name": "Quarters this year", "parent": "6" },
+
+    { "id": "2800", "name": "This six - month", "parent": "7" },
+    { "id": "2900", "name": "Last six - month", "parent": "7" },
+    { "id": "3000", "name": "Last 2 sixmonths", "parent": "7" },
+
+    { "id": "3100", "name": "This financial year", "parent": "8" },
+    { "id": "3200", "name": "Last financial year", "parent": "8" },
+    { "id": "3300", "name": "Last 5 financial years", "parent": "8" },
+
+    { "id": "3400", "name": "This year", "parent": "9" },
+    { "id": "3500", "name": "Last year", "parent": "9" },
+    { "id": "3600", "name": "Last 5 years", "parent": "9" }
+
+
+]

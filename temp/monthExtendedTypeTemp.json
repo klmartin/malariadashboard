@@ -1,0 +1,20 @@
+[
+    { "id": "1", "name": "Daily" },
+    { "id": "2", "name": "Weekly" },
+    { "id": "3", "name": "Bi-weeks" },
+    { "id": "4", "name": "Weekly(Start wednesday)" },
+    { "id": "5", "name": "Weekly(Start Thursday)" },
+    { "id": "6", "name": "Weekly(Start Saturday)" },
+    { "id": "7", "name": "Weekly(Start Sunday)" },
+    { "id": "8", "name": "Monthly" },
+    { "id": "9", "name": "Bi - monthly" },
+    { "id": "10", "name": "Quartely" },
+    { "id": "11", "name": "Six - monthly" },
+    { "id": "12", "name": "Six - monthly april" },
+    { "id": "13", "name": "yearly" },
+    { "id": "14", "name": "Financial year(start November)" },
+    { "id": "15", "name": "Financial year(start October)" },
+    { "id": "16", "name": "Financial year(start July)" },
+    { "id": "17", "name": "Financial year(start April)" }
+
+]

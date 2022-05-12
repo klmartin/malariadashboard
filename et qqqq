@@ -1,0 +1,554 @@
+[33mcommit d2116d2c78f89c6dc62418c50eeae487794a55d6[m[33m ([m[1;36mHEAD -> [m[1;32monasis_features[m[33m)[m
+Merge: 397962a 27a1d7e
+Author: onassiskenan <onassiskenan@gmail.com>
+Date:   Tue Aug 24 15:27:57 2021 +0300
+
+    dscsD
+
+[33mcommit 397962ad9f736f2eb9509cea1cfec9a47862196d[m
+Author: onassiskenan <onassiskenan@gmail.com>
+Date:   Tue Aug 24 15:23:06 2021 +0300
+
+    map is working but with fake data
+
+[33mcommit 27a1d7e1aa637a52e29e5904c71a05bfd0114898[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Merge: 77d0b65 dbc758e
+Author: martin <martinkaboja@gmail.com>
+Date:   Tue Aug 24 10:06:25 2021 +0300
+
+    Merge remote-tracking branch 'origin/master'
+
+[33mcommit 77d0b655ddcc8cf339e2e9db5c04d8baad777dd0[m
+Author: martin <martinkaboja@gmail.com>
+Date:   Tue Aug 24 10:06:01 2021 +0300
+
+    added visualizer function
+
+[33mcommit dbc758e8cb53c3c6df1d83f48b6b78c866ccf842[m
+Author: onassiskenan <onassiskenan@gmail.com>
+Date:   Tue Aug 24 10:04:19 2021 +0300
+
+    allow multiple selecting for visualization
+
+[33mcommit 1c6e5d4d24e578686957395ca3216bc3d88dec40[m
+Author: onassiskenan <onassiskenan@gmail.com>
+Date:   Mon Aug 23 17:25:48 2021 +0300
+
+    working with maps
+
+[33mcommit b861c4eea6fe2c59e9b6888be05db41bd6a012fc[m
+Author: martin <martinkaboja@gmail.com>
+Date:   Mon Aug 23 05:03:09 2021 +0300
+
+    final commit for the day
+
+[33mcommit c17e749a21cb5dfa79823dd7537d7c94e02e5b25[m
+Merge: b61e740 de29e25
+Author: martin <martinkaboja@gmail.com>
+Date:   Mon Aug 23 02:48:16 2021 +0300
+
+    Merge branch 'master' into martin_features
+
+[33mcommit de29e25a7e538b5702c28f50f7e1c2d1cbb257e5[m
+Merge: 34e72cd 3b55574
+Author: martin <martinkaboja@gmail.com>
+Date:   Mon Aug 23 02:41:30 2021 +0300
+
+    Merge remote-tracking branch 'origin/master'
+
+[33mcommit 34e72cd8e2025d0b5aedf6a5b6d79bb38c3e6fda[m
+Author: martin <martinkaboja@gmail.com>
+Date:   Mon Aug 23 02:39:55 2021 +0300
+
+    finished chart
+
+[33mcommit 3b55574bc228446666b2fac6aa8f1e129a5bc8c2[m
+Author: yusuph <yusuphtrone@gmail.com>
+Date:   Mon Aug 23 00:13:15 2021 +0300
+
+    .
+
+[33mcommit b23e4339c2abe68c23b89c66db52b9e62c5d6751[m
+Author: yusuph <yusuphtrone@gmail.com>
+Date:   Mon Aug 23 00:07:51 2021 +0300
+
+    .
+
+[33mcommit d86edc80b729935f9d8a161e65e3ae0de6b3fcdd[m
+Merge: 2110e79 8cd5537
+Author: onassiskenan <onassiskenan@gmail.com>
+Date:   Sun Aug 22 22:53:50 2021 +0300
+
+    tabs are well working
+
+[33mcommit 2110e792c518d86fc02a9773d2e4af28743a01dc[m
+Author: onassiskenan <onassiskenan@gmail.com>
+Date:   Sun Aug 22 22:52:53 2021 +0300
+
+    tabs are well working
+
+[33mcommit 8cd553745842c935ac451c3fa1088bf297f9f252[m
+Author: yusuph <yusuphtrone@gmail.com>
+Date:   Sun Aug 22 22:42:40 2021 +0300
+
+    .
+
+[33mcommit cdb93ffb4237113a6db01901acac47c28bebbce6[m
+Merge: e36c4e1 308efd4
+Author: onassiskenan <onassiskenan@gmail.com>
+Date:   Sun Aug 22 21:21:59 2021 +0300
+
+    merge with onasis features
+
+[33mcommit e36c4e1d795cf9618d2d5885239cb7f444f5c49d[m
+Merge: fc52fc8 e5a7506
+Author: onassiskenan <onassiskenan@gmail.com>
+Date:   Sun Aug 22 21:10:13 2021 +0300
+
+    merging with laison
+
+[33mcommit b61e740c3fc1074048776df64f46c0a0392bd73d[m
+Merge: c75f296 fc52fc8
+Author: martin <martinkaboja@gmail.com>
+Date:   Sun Aug 22 20:47:45 2021 +0300
+
+    Merge branch 'master' into martin_features
+
+[33mcommit 308efd400d1d938a015f45d87f91f152d5ac68f6[m
+Author: onassiskenan <onassiskenan@gmail.com>
+Date:   Sun Aug 22 20:44:51 2021 +0300
+
+    comments can be deleted and created well.
+
+[33mcommit fc52fc8928ef805b32779fe8d294929d51bec271[m
+Author: martin <martinkaboja@gmail.com>
+Date:   Sun Aug 22 20:44:17 2021 +0300
+
+    lets merge
+
+[33mcommit 4b9e7da9d19e038bc2731354bed947b0ca2bf7c0[m
+Author: onassiskenan <onassiskenan@gmail.com>
+Date:   Sun Aug 22 20:42:50 2021 +0300
+
+    comments can be deleted and created well.
+
+[33mcommit e5a7506bb4a6bc8f39e0277f49ffd73d7689dbce[m[33m ([m[1;31morigin/laison[m[33m, [m[1;32mlaison[m[33m)[m
+Author: unknown <laisonmarko@gmail.com>
+Date:   Sun Aug 22 17:30:43 2021 +0300
+
+    add table filter"
+
+[33mcommit d68e38204a3062e53685106af9aeafab89bff6a6[m
+Author: onassiskenan <onassiskenan@gmail.com>
+Date:   Sun Aug 22 16:51:38 2021 +0300
+
+    adding filter while adding indicators
+
+[33mcommit 26db6eabd1e4d480ff01ec2211ade00aad26ae2d[m
+Merge: 5763b69 03b885d
+Author: onassiskenan <onassiskenan@gmail.com>
+Date:   Sun Aug 22 13:20:16 2021 +0300
+
+    latest changes
+
+[33mcommit c75f2964c505a54908ef9dd7e75cd4068feb8b2c[m
+Merge: dfb7269 03b885d
+Author: martin <martinkaboja@gmail.com>
+Date:   Sun Aug 22 13:03:59 2021 +0300
+
+    Merge branch 'master' into martin_features
+
+[33mcommit 03b885d9c0793401158b4d45b5ec01514f78e109[m
+Author: onassiskenan <onassiskenan@gmail.com>
+Date:   Sun Aug 22 13:02:07 2021 +0300
+
+    latest working changes
+
+[33mcommit 5c42c032087ff97f73d359b3ce34b17f72f50a3c[m
+Merge: 70c2f54 cc2121b
+Author: onassiskenan <onassiskenan@gmail.com>
+Date:   Sun Aug 22 13:01:13 2021 +0300
+
+    Merge branch 'master' of https://bitbucket.org/cits_developers/portal
+
+[33mcommit 70c2f5406aed59f12c196c4e392940c9d5dc676b[m
+Merge: 0697d7c 61a3e2e
+Author: onassiskenan <onassiskenan@gmail.com>
+Date:   Sun Aug 22 12:59:37 2021 +0300
+
+    full working project
+
+[33mcommit 61a3e2ed655c7fd063ed89c917904b1000396059[m
+Merge: e3c87e8 b0844b7
+Author: onassiskenan <onassiskenan@gmail.com>
+Date:   Sun Aug 22 12:44:56 2021 +0300
+
+    onasis last changes
+
+[33mcommit cc2121be36e97f4a6743bf1315c845712645430f[m
+Merge: 4c044d5 792bd1a
+Author: martin <martinkaboja@gmail.com>
+Date:   Sun Aug 22 12:38:02 2021 +0300
+
+    Merge branch 'rough1'
+
+[33mcommit e3c87e8578dae238cd3c1a01ca3498f29787fa98[m
+Author: onassiskenan <onassiskenan@gmail.com>
+Date:   Sun Aug 22 12:01:08 2021 +0300
+
+    .
+
+[33mcommit 0697d7ccb9795a8927ef65bcf3dd5bc24252829c[m
+Merge: 4c044d5 792bd1a
+Author: onassiskenan <onassiskenan@gmail.com>
+Date:   Sun Aug 22 11:53:29 2021 +0300
+
+    Merge remote-tracking branch 'origin/rough1'
+
+[33mcommit 792bd1a15bd54d39bf2037005b051109d1286d56[m
+Author: martin <martinkaboja@gmail.com>
+Date:   Sun Aug 22 11:43:09 2021 +0300
+
+    martin new branch
+
+[33mcommit dfb7269e31e6eee42b8db4a1a7557a7708ea83f8[m
+Author: martin <martinkaboja@gmail.com>
+Date:   Sun Aug 22 11:31:39 2021 +0300
+
+    last commit
+
+[33mcommit b0844b7dc261523c192ac8a4edc4d54f9c0e3f95[m
+Author: onassiskenan <onassiskenan@gmail.com>
+Date:   Sun Aug 22 11:22:02 2021 +0300
+
+    new changes
+
+[33mcommit 4c044d573cccf17fc47aecc4b5e3d414bf80a8c0[m
+Author: martin <martinkaboja@gmail.com>
+Date:   Sun Aug 22 11:16:26 2021 +0300
+
+    swett alert
+
+[33mcommit 7757b59def26731c24ccf8952e6cbbc1ec8c3077[m
+Author: martin <martinkaboja@gmail.com>
+Date:   Sat Aug 21 11:50:46 2021 +0300
+
+    nnnn
+
+[33mcommit 2730daf410f04d37d35a66687720ab7aa8affdf0[m
+Merge: 8c569c6 b4ffe6c
+Author: martin <martinkaboja@gmail.com>
+Date:   Sat Aug 21 08:50:36 2021 +0300
+
+    Merge remote-tracking branch 'origin/rough' into martin_features
+
+[33mcommit b4ffe6c6b70c2ff4baee3852c9f730faf616b8ef[m
+Author: onassiskenan <onassiskenan@gmail.com>
+Date:   Sat Aug 21 08:33:31 2021 +0300
+
+    close modal and add data with ajax
+
+[33mcommit fc8cabb4543354cfcb4df33aa0f43162216a28e8[m
+Author: onassiskenan <onassiskenan@gmail.com>
+Date:   Sat Aug 21 08:11:04 2021 +0300
+
+    empty comments before showing new ones
+
+[33mcommit 8a65f4669db97997e4e5fb98dfa5e10bfba01d07[m
+Author: onassiskenan <onassiskenan@gmail.com>
+Date:   Sat Aug 21 07:58:22 2021 +0300
+
+    add empty comment div before display
+
+[33mcommit 201c3840927daf71176ee13ad81cd63a079383ce[m
+Author: onassiskenan <onassiskenan@gmail.com>
+Date:   Sat Aug 21 07:56:14 2021 +0300
+
+    add empty comment div before display
+
+[33mcommit 7de97fe13af0a4a06e65840ddc9ec138e8aca130[m
+Author: onassiskenan <onassiskenan@gmail.com>
+Date:   Sat Aug 21 07:53:28 2021 +0300
+
+    add database
+
+[33mcommit 8c569c61270966c5f4b805fa51953f5dd7109b4e[m
+Merge: 61c1373 1ca9745
+Author: martin <martinkaboja@gmail.com>
+Date:   Sat Aug 21 07:09:46 2021 +0300
+
+    Merge remote-tracking branch 'origin/rough' into martin_features
+
+[33mcommit 61c1373ac2f1b05c09c2fefa4af5f028fd18058d[m
+Author: martin <martinkaboja@gmail.com>
+Date:   Sat Aug 21 06:47:20 2021 +0300
+
+    .
+
+[33mcommit 9700d702c27387f057373370e897e521f5bbe773[m
+Author: martin <martinkaboja@gmail.com>
+Date:   Sat Aug 21 06:27:39 2021 +0300
+
+    final
+
+[33mcommit 1ca9745a666157e91863fe11a1bbf88ef28816af[m
+Author: onassiskenan <onassiskenan@gmail.com>
+Date:   Sat Aug 21 00:18:54 2021 +0300
+
+    mergin with rough
+
+[33mcommit 5763b69cd285c732dbd2d491829d6e3d29dfbe8f[m
+Author: onassiskenan <onassiskenan@gmail.com>
+Date:   Fri Aug 20 20:26:08 2021 +0300
+
+    something is wrong comewhere
+
+[33mcommit b2ad9e32a82964db691b891700a14ef9e03a8e4e[m
+Author: onassiskenan <onassiskenan@gmail.com>
+Date:   Fri Aug 20 20:17:50 2021 +0300
+
+    commit data
+
+[33mcommit 33a96227de84df702adc256653505b5d1714cf37[m
+Author: onassiskenan <onassiskenan@gmail.com>
+Date:   Fri Aug 20 20:10:28 2021 +0300
+
+    latest commit
+
+[33mcommit 48d3b280f8621ed109b54b7cfb03007e80f4e5cc[m
+Author: onassiskenan <onassiskenan@gmail.com>
+Date:   Fri Aug 20 20:04:02 2021 +0300
+
+    comments with error
+
+[33mcommit 6b9e37212b203e6d25ad40dae4dcc8fc5877e9a5[m
+Author: onassiskenan <onassiskenan@gmail.com>
+Date:   Fri Aug 20 18:33:31 2021 +0300
+
+    working with visualization styles
+
+[33mcommit 17dc7ffa2d4e046fa8ee5ba9e803e75f22a8a46c[m
+Merge: 523d1a7 0096e7b
+Author: martin <martinkaboja@gmail.com>
+Date:   Fri Aug 20 16:58:28 2021 +0300
+
+    Merge remote-tracking branch 'origin/martin_features' into martin_features
+
+[33mcommit 523d1a768e66a2eb650f275039b562ccab0eb6d1[m
+Author: martin <martinkaboja@gmail.com>
+Date:   Fri Aug 20 16:57:28 2021 +0300
+
+    .
+
+[33mcommit 0242aef7509111718eeca868c28c41da4e1715f8[m
+Author: martin <martinkaboja@gmail.com>
+Date:   Fri Aug 20 16:40:28 2021 +0300
+
+    .
+
+[33mcommit 0096e7b4633c025fa131f8c89f8e2a2f9e16dca9[m
+Author: unknown <laisonmarko@gmail.com>
+Date:   Fri Aug 20 16:09:14 2021 +0300
+
+    fix:the tables
+
+[33mcommit d2f78a6adcb14eb2b78adc5b01d792457c2d5fb9[m
+Author: onassiskenan <onassiskenan@gmail.com>
+Date:   Fri Aug 20 09:51:26 2021 +0300
+
+    stylish the datepicker
+
+[33mcommit 8a9fb3d971899f977f7e29d80e8492ec60719b31[m
+Author: onassiskenan <onassiskenan@gmail.com>
+Date:   Thu Aug 19 17:39:57 2021 +0300
+
+    working with table
+
+[33mcommit 91658d0fe9e6bb2a07b2e68b7271fbc5723fcb22[m
+Author: martin <martinkaboja@gmail.com>
+Date:   Thu Aug 19 15:58:28 2021 +0300
+
+    ...
+
+[33mcommit 37c40e0689a085b31fa9ba69303a4b7524c40bac[m
+Author: martin <martinkaboja@gmail.com>
+Date:   Thu Aug 19 14:20:57 2021 +0300
+
+    .
+
+[33mcommit 1c5b2bb6681b28db2dd6fdf6d2cf3b1f43571e5f[m
+Author: martin <martinkaboja@gmail.com>
+Date:   Wed Aug 18 16:05:43 2021 +0300
+
+    fixed table
+
+[33mcommit e70c0240472f736936c7dba4ec805515980c9bd2[m
+Author: martin <martinkaboja@gmail.com>
+Date:   Mon Aug 16 00:43:52 2021 +0300
+
+    fixed modal pop up issue on mobile phones
+
+[33mcommit 14a5af6ae69cd0bf8054b3baf3c3f5f2958c8090[m
+Author: martin <martinkaboja@gmail.com>
+Date:   Sat Aug 14 12:57:26 2021 +0300
+
+    .
+
+[33mcommit d2fe697dac0e172d62ec3cb1e7fa41009533d2d8[m
+Author: martin <martinkaboja@gmail.com>
+Date:   Sat Aug 14 12:51:46 2021 +0300
+
+    removed pivot table in visualization
+
+[33mcommit fe4e3b1e5cd1cfed6001c849ea7c6afe3da80fd9[m
+Author: martin <martinkaboja@gmail.com>
+Date:   Sat Aug 14 11:15:26 2021 +0300
+
+    new final sql attached
+
+[33mcommit e808d2b437c7f5f9b614b61bf1e8ba879c234ef9[m
+Author: martin <martinkaboja@gmail.com>
+Date:   Sat Aug 14 11:11:39 2021 +0300
+
+    minor bugs fixes
+
+[33mcommit 50fb384e955ed1d99c4865b2895d0d16d9e2fba4[m
+Author: martin <martinkaboja@gmail.com>
+Date:   Fri Aug 13 09:03:39 2021 +0300
+
+    .
+
+[33mcommit a0f7c5c461fa8f9f56dee30bdf2a8ebf5160f488[m
+Merge: 3d3e98d 426d1e1
+Author: martin <martinkaboja@gmail.com>
+Date:   Fri Aug 13 08:29:11 2021 +0300
+
+    Merge remote-tracking branch 'origin/master' into martin_features
+
+[33mcommit 426d1e1335a28e1ea9d4b8ec88a6d04979f9c930[m
+Author: onassiskenan <onassiskenan@gmail.com>
+Date:   Fri Aug 13 08:26:32 2021 +0300
+
+    change the width from mid to max screen view
+
+[33mcommit 7625267e618c35e232d6622ceb7c935e51b5138f[m
+Author: cits developers <frontdesk@cits.co.tz>
+Date:   Thu Aug 12 19:11:13 2021 +0000
+
+    readme.rst edited online with Bitbucket
+
+[33mcommit 3d3e98debdd21d9adb47818ceacd40d84ac17be8[m
+Merge: 07f6f23 8c2954a
+Author: martin <martinkaboja@gmail.com>
+Date:   Thu Aug 12 22:07:14 2021 +0300
+
+    Merge remote-tracking branch 'origin/master'
+
+[33mcommit 8c2954ab5827358256d18ed313f804f1b4478c29[m
+Author: onassiskenan <onassiskenan@gmail.com>
+Date:   Thu Aug 12 22:02:11 2021 +0300
+
+    nothing to commit
+
+[33mcommit 7b4605c0078956cd8ef6fd010e80e6d738b163a4[m
+Author: onassiskenan <onassiskenan@gmail.com>
+Date:   Thu Aug 12 18:38:01 2021 +0300
+
+    write the correct indicator values
+
+[33mcommit 07f6f2343cb088a501de15ee4be0a3908bb00b55[m
+Author: martin <martinkaboja@gmail.com>
+Date:   Thu Aug 12 18:25:38 2021 +0300
+
+    sql
+
+[33mcommit 0894eb0dd3b41ab7a10eeb043e4e48555df49b20[m
+Merge: 0317eca c35fe1e
+Author: onassiskenan <onassiskenan@gmail.com>
+Date:   Thu Aug 12 17:59:41 2021 +0300
+
+    merge with develop
+
+[33mcommit 0317eca88f011d4ff0b7a2903fc14dd7a77950dd[m
+Author: onassiskenan <onassiskenan@gmail.com>
+Date:   Thu Aug 12 17:48:24 2021 +0300
+
+    init master
+
+[33mcommit c35fe1e8f56899011c73dffee214b7e39f5db640[m
+Author: onassiskenan <onassiskenan@gmail.com>
+Date:   Thu Aug 12 17:42:45 2021 +0300
+
+    new updates
+
+[33mcommit 275cc1f843e5ea2893428aa6cc0e6543227c2cf9[m
+Author: onassiskenan <onassiskenan@gmail.com>
+Date:   Thu Aug 12 17:20:52 2021 +0300
+
+    new changes
+
+[33mcommit 4390257ebc232ece1f70ffbfd20d64ea6f568001[m
+Author: onassiskenan <onassiskenan@gmail.com>
+Date:   Wed Aug 11 11:54:02 2021 +0300
+
+    filter range
+
+[33mcommit 35de04d9dd8874708725821e7b103b2d0fde1be4[m
+Author: onassiskenan <onassiskenan@gmail.com>
+Date:   Wed Aug 11 10:59:53 2021 +0300
+
+    increase visulization range, filter was not working
+
+[33mcommit 3ee91406a5f4e3bc7bb7556e9418d3517a08f06e[m
+Author: onassiskenan <onassiskenan@gmail.com>
+Date:   Tue Aug 10 13:29:26 2021 +0300
+
+    add attractive
+
+[33mcommit 5cad0ad042b207d0bc71b92ef28788f39c587556[m
+Author: onassiskenan <onassiskenan@gmail.com>
+Date:   Tue Aug 10 12:33:34 2021 +0300
+
+    improve css
+
+[33mcommit 3e2105232ed409bd3c6056e49c77fec02c8f62b8[m
+Author: onassiskenan <onassiskenan@gmail.com>
+Date:   Tue Aug 10 12:19:09 2021 +0300
+
+    display alert message for no visualizations
+
+[33mcommit dc658e2dcd8fcb2778d945b56bb380e3472a8fea[m
+Author: onassiskenan <onassiskenan@gmail.com>
+Date:   Tue Aug 10 11:57:53 2021 +0300
+
+    visualizations work well
+
+[33mcommit 9f0d2e2cefe6712c08adc00626a987b013ce513e[m
+Author: onassiskenan <onassiskenan@gmail.com>
+Date:   Tue Aug 10 11:57:15 2021 +0300
+
+    visualization work well
+
+[33mcommit c4511c543bd7ef399add453188b504150d8c726f[m
+Author: onassiskenan <onassiskenan@gmail.com>
+Date:   Tue Aug 10 10:41:09 2021 +0300
+
+    show loader only for existing visual data related to dashboards
+
+[33mcommit 5060cb95abb0e0f3f6c2918b8253342d6cf3f7cb[m
+Author: onassiskenan <onassiskenan@gmail.com>
+Date:   Tue Aug 10 10:07:46 2021 +0300
+
+    handle loader for visualisation
+
+[33mcommit 8ca19a8d360e8e1f6f8cf7f7b3a71076c76ba7c6[m
+Author: onassiskenan <onassiskenan@gmail.com>
+Date:   Mon Aug 9 21:50:38 2021 +0300
+
+    init commit
+
+[33mcommit da13ce99336cae6d6d21855b2bda58b988ad9ad1[m
+Author: cits developers <frontdesk@cits.co.tz>
+Date:   Mon Aug 9 14:24:44 2021 +0000
+
+    Initial commit

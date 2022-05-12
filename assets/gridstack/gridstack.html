@@ -1,0 +1,140 @@
+<!-- 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Responsive grid demo</title>
+
+  <link rel="stylesheet" href="demo.css"/>
+  <link rel="stylesheet" href="dist/gridstack-extra.min.css"/>
+  <script src="dist/gridstack-h5.js"></script>
+  <style type="text/css">
+    body { margin: 8px 0; } /* make grid take entire vw so we have correct square cells */
+  </style>
+</head>
+<body>
+  <div>
+    <h1>Responsive grid demo</h1>
+    <div>
+      <span>Number of Columns:</span> <span id="column-text"></span>
+    </div>
+    <div>
+      <label>Choose re-layout:</label>
+      <select onchange="layout = this.value">
+        <option value="moveScale">move + scale</option>
+        <option value="move">move</option>
+        <option value="scale">scale</option>
+        <option value="none">none</option>
+      </select>
+      <a onClick="grid.removeAll()" class="btn btn-primary" href="#">Clear</a>
+      <a onClick="addWidget()" class="btn btn-primary" href="#">Add Widget</a>
+    </div>
+    <br/>
+    <div class="grid-stack">
+    </div>
+  </div>
+
+  <script type="text/javascript">
+    let grid = GridStack.init({
+      cellHeight: 'initial', // start square but will set to % of window width later
+      animate: false, // show immediate (animate: true is nice for user dragging though)
+      disableOneColumnMode: true, // will manually do 1 column
+      float: true 
+    });
+
+    let text = document.querySelector('#column-text');
+    let layout = 'moveScale';
+    
+    function resizeGrid() {
+      let width = document.body.clientWidth;
+      if (width < 700) {
+        grid.column(1, layout).cellHeight('100vw');
+        text.innerHTML = 1;
+      } else if (width < 850) {
+        grid.column(3, layout).cellHeight('33.3333vw');
+        text.innerHTML = 3;
+      } else if (width < 950) {
+        grid.column(6, layout).cellHeight('16.6666vw');
+        text.innerHTML = 6;
+      } else if (width < 1100) {
+        grid.column(8, layout).cellHeight('12.25vw');
+        text.innerHTML = 8;
+      } else {
+        grid.column(12, layout).cellHeight('8.3333vw');
+        text.innerHTML = 12;
+      }
+    };
+
+    function addWidget() {
+      grid.addWidget({x:0, y:0, w:4, content: '4x1'});
+    };
+    
+    let items = [ // our initial 12 column layout loaded first so we can compare
+      {x: 0, y: 0, w: 2, content: '0'},
+      {x: 2, y: 0, w: 2, h: 2, content: '1'},
+      {x: 5, y: 0, content: '2'},
+      {x: 1, y: 3, w: 4, content: '3'},
+      {x: 5, y: 2, w: 2, content: '4'},
+      {x: 0, y: 4, w: 12, content: '5'}
+    ];
+    grid.load(items);
+    resizeGrid(); // finally size to actual window
+
+    window.addEventListener('resize', function() {resizeGrid()});
+  </script>
+</body>
+</html>
+ -->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>demo1</title>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="demo.css" />
+
+  <script type="module" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule="" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.js"></script>
+
+  <script src="dist/gridstack-h5.js"></script>
+</head>
+
+<body>
+  <h1>Web demo 1</h1>
+  <div class="grid-stack"></div>
+
+  <script type="text/javascript">
+    let grid = GridStack.init({
+      cellHeight: 70,
+    });
+
+    let items = [
+      {x: 0, y: 0, w: 4, h: 2, content: '1'},
+      {x: 4, y: 0, w: 4, h: 4, content: '2'},
+      {x: 8, y: 0, w: 2, h: 2, content: '<p class="card-text text-center" style="margin-bottom: 0">Drag me!<p class="card-text text-center"style="margin-bottom: 0"><ion-icon name="hand" style="font-size: 300%"></ion-icon><p class="card-text text-center" style="margin-bottom: 0">'},
+      {x: 10, y: 0, w: 2, h: 2, content: '4'},
+      {x: 0, y: 2, w: 2, h: 2, content: '5'},
+      {x: 2, y: 2, w: 2, h: 4, content: '6'},
+      {x: 8, y: 2, w: 4, h: 2, content: '7'},
+      {x: 0, y: 4, w: 2, h: 2, content: '8'},
+      {x: 4, y: 4, w: 4, h: 2, content: '9'},
+      {x: 8, y: 4, w: 2, h: 2, content: '10'},
+      {x: 10, y: 4, w: 2, h: 2, content: '11'},
+    ];
+    grid.load(items);
+    
+    grid.on('added removed change', function(e, items) {
+      let str = '';
+      items.forEach(function(item) { str += ' (x,y)=' + item.x + ',' + item.y; });
+      console.log(e.type + ' ' + items.length + ' items:' + str );
+    });
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,43 @@
+.tabulator {
+font-size: 12px;
+}
+
+.tabulator .tabulator-tableHolder{
+
+
+  background-color: #ffffff;
+}
+
+
+.tabulator .tabulator-header {
+/*  position: relative;
+  box-sizing: border-box;
+  width: 100%;
+  border-bottom: 0px solid #fff;*/
+  background: #dae6f8;
+  /*text-align: center;*/
+/*  color: #fff;
+  font-weight: bold;
+  white-space: nowrap;
+  overflow: hidden;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -o-user-select: none;*/
+}
+
+.tabulator .tabulator-header .alternate {
+     background-color: #93a3a7;
+}
+
+.tabulator .tabulator-header .tabulator-col {
+  display: inline-block;
+  position: relative;
+  box-sizing: border-box;
+  border-right: 1px solid #aaa;
+  text-align: center;
+  vertical-align: bottom;
+  overflow: hidden;
+    background: #dae6f8;
+
+}
